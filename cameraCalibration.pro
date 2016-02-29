@@ -15,7 +15,9 @@ TEMPLATE = app
 SOURCES += main.cpp\
         mainwindow.cpp \
     camcal.cpp \
-    glwidget.cc
+    glwidget.cc \
+    shader.cc \
+    trackball.cc
 
 OTHER_FILES += shader/*.vert shader/*.frag
 
@@ -25,7 +27,9 @@ HEADERS  += \
     common.hh \
     glwidget.hh \
     mainwindow.h \
-    meshglhelper.hh
+    meshglhelper.hh \
+    shader.hh \
+    trackball.hh
 
 FORMS    += mainwindow.ui
 
